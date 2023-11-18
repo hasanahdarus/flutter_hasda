@@ -45,4 +45,55 @@ print("Tinggi Badan : $tall"); //String Intropolation "$" berfungsi semua data d
 print("Sudah Menikah : $isMarried"); //string Interpolation
 print("Umur : " + age); // kalau jenis datanya sudah string
 
+print("----------------------------------");
+
+//Deklarasi Variabel dan Tipe Data
+int number1 = 10;
+int number2 = 20;
+
+//Operator 
+print(1 + 2);
+print(1 / 2);
+print(1 * 2);
+print(1 - 2);
+print(2 % 3);
+
+print("----------------------------------");
+var isLearning =true; 
+
+var result = 1;
+for (int i = 1; i <= 5; i++) {
+  result *= i;
+}
+
+print(result);
+print("----------------------------------");
+
+//Comparison
+print("me" == "me");
+print(1 == 2);
+print(false == false);
+
+List<String> names = ["Yudha", "Hasnah", "Ira"];
+
+print(names.isEmpty);
+
+if (names.isNotEmpty ==false) {
+  print("Data Dalam List itu Tersedia");
+} else {
+  print("Data Dalam List itu Kosong");
+} 
+print("----------------------------------");
+
+// Logical &&, ||, !
+  print(0 == 1 && 0 == 1);
+  print(0 == 1 && 0 == 0);
+  print(1 == 1 && 1 == 0);
+  print(1 == 1 && 0 == 0);
+
+  print(0 == 1 || 0 == 1);
+  print(0 == 1 || 0 == 0);
+  print(1 == 1 || 1 == 0);
+  print(1 == 1 || 0 == 0);
+
 }
